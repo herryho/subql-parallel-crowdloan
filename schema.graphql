@@ -1,0 +1,16 @@
+type Crowdloan @entity {
+
+  id: ID! #id is a required field
+
+  event: String #Event name
+
+  account: String #Token symbol
+
+  paraid: String
+
+  amount: String
+
+  blockHeight: Int #Block height of the event
+
+  timestamp: Int  #Timestamp of the event
+}

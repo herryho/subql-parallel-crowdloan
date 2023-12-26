@@ -1,0 +1,14 @@
+.git/
+Dockerfile
+node_modules/
+README.md
+LICENSE
+yarn.lock
+makefile
+.github
+coverage
+deploy
+docs
+test/docker-compose.yaml
+test/Dockerfile
+project.yaml
